@@ -11,8 +11,8 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HelloWorld" expanded="True">
-            <Node name="HelloWorld">
-              <Node name="MainPage.xaml">
+            <Node name="HelloWorld" expanded="True">
+              <Node name="MainPage.xaml" expanded="True">
                 <Node name="MainPage.xaml.cs" selected="True" />
               </Node>
             </Node>
