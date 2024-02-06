@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BreakTimer.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label
+                Text="Start Break"
+                x:Name="lblDisplay"
+                FontSize="Title"
+                Margin="0,75"
+                HorizontalOptions="Center" />
+
+            <Button
+                Text="Take 5"
+                x:Name="btnTakeFive"
+                Clicked="btnTakeFive_Clicked" />
+
+            <Button
+                Text="Take 10"
+                x:Name="btnTakeTen"
+                Clicked="btnTakeTen_Clicked" />
+
+            <Button
+                Text="Take 15"
+                x:Name="btnTakeFifteen"
+                Clicked="btnTakeFifteen_Clicked"/>
+
+            <Button
+                Text="Reset"
+                x:Name="btnReset"
+                Margin="0,150,0,0"
+                Clicked="btnReset_Clicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+

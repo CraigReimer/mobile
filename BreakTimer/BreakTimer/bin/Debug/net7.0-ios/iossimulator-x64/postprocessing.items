@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="BreakTimer.app/BreakTimer">
+      <BCSymbolMapName>BreakTimer.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>BreakTimer.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/student/Projects/mobile/BreakTimer/BreakTimer/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>BreakTimer.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/student/Projects/mobile/BreakTimer/BreakTimer</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
