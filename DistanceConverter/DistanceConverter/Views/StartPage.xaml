@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DistanceConverter.Views.StartPage"
+             Title="StartPage">
+    <ScrollView>
+        <Grid
+            Padding="30, 30">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="20" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="20" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="20" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="20" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="20" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="20" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="20" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+
+            <Label
+                VerticalOptions="Center"
+                Grid.Column="0"
+                Grid.Row="0"
+                Text="Meters" />
+            <Border
+                Stroke="Gray"
+                StrokeThickness="1"
+                Grid.Column="2"
+                Grid.Row="0" >
+
+                <Entry
+                    Keyboard="Numeric"
+                    x:Name="txtMeters"
+                    TextChanged="txtMeters_TextChanged" />
+
+            </Border>
+
+            <Label
+                VerticalOptions="Center"
+                Grid.Column="0"
+                Grid.Row="2"
+                Text="Inches" />
+            <Border
+                Stroke="Gray"
+                StrokeThickness="1"
+                Grid.Column="2"
+                Grid.Row="2" >
+
+                <Entry
+                    Keyboard="Numeric"
+                    x:Name="txtInches"
+                    TextChanged="txtInches_TextChanged" />
+            </Border>
+
+            <Label
+                VerticalOptions="Center"
+                Grid.Column="0"
+                Grid.Row="4"
+                Text="Feet" />
+            <Border
+                Stroke="Gray"
+                StrokeThickness="1"
+                Grid.Column="2"
+                Grid.Row="4" >
+
+                <Entry
+                    Keyboard="Numeric"
+                    x:Name="txtFeet"
+                    TextChanged="txtFeet_TextChanged" />
+            </Border>
+
+            <Label
+                VerticalOptions="Center"
+                Grid.Column="0"
+                Grid.Row="6"
+                Text="Yards" />
+            <Border
+                Stroke="Gray"
+                StrokeThickness="1"
+                Grid.Column="2"
+                Grid.Row="6" >
+
+                <Entry
+                    Keyboard="Numeric"
+                    x:Name="txtYards"
+                    TextChanged="txtYards_TextChanged" />
+            </Border>
+
+            <Label
+                VerticalOptions="Center"
+                Grid.Column="0"
+                Grid.Row="8"
+                Text="Miles" />
+            <Border
+                Stroke="Gray"
+                StrokeThickness="1"
+                Grid.Column="2"
+                Grid.Row="8" >
+
+                <Entry
+                    Keyboard="Numeric"
+                    x:Name="txtMiles"
+                    TextChanged="txtMiles_TextChanged" />
+            </Border>
+
+            <Label
+                VerticalOptions="Center"
+                Grid.Column="0"
+                Grid.Row="10"
+                Text="Nautical" />
+            <Border
+                Stroke="Gray"
+                StrokeThickness="1"
+                Grid.Column="2"
+                Grid.Row="10" >
+
+                <Entry
+                    Keyboard="Numeric"
+                    x:Name="txtNautical"
+                    TextChanged="txtNautical_TextChanged" />
+            </Border>
+
+            <Label
+                VerticalOptions="Center"
+                Grid.Column="0"
+                Grid.Row="12"
+                Text="Kilometers" />
+            <Border
+                Stroke="Gray"
+                StrokeThickness="1"
+                Grid.Column="2"
+                Grid.Row="12" >
+
+                <Entry
+                    Keyboard="Numeric"
+                    x:Name="txtKilometers"
+                    TextChanged="txtKilometers_TextChanged" />
+            </Border>
+
+            <!-- Button Row -->
+            <StackLayout
+                Orientation="Horizontal"
+                Grid.Column="0"
+                Grid.ColumnSpan="3"
+                Grid.Row="14" >
+
+                <Button
+                    Text="Clear"
+                    HorizontalOptions="FillAndExpand"
+                    x:Name="btnClear"
+                    Clicked="btnClear_Clicked"/>
+
+                <Button
+                    Text="Convert"
+                    HorizontalOptions="FillAndExpand"
+                    x:Name="btnConvert"
+                    Clicked="btnConvert_Clicked"
+                    />
+
+            </StackLayout>
+        </Grid>
+
+    </ScrollView>
+    
+        
+</ContentPage>

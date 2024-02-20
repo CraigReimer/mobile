@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{47988C65-F830-4576-8CEC-81D0A65BB465}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.DistanceConverter PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7683390C-D013-4072-A26A-17395FCE105C" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7683390C-D013-4072-A26A-17395FCE105C" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DistanceConverter/Views/StartPage.xaml.cs">
+    <Files>
+      <File FileName="DistanceConverter/Views/StartPage.xaml" Line="151" Column="61" />
+      <File FileName="DistanceConverter/Views/StartPage.xaml.cs" Line="63" Column="10" />
+      <File FileName="DistanceConverter/Platforms/iOS/Program.cs" Line="13" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DistanceConverter" expanded="True">
+            <Node name="DistanceConverter">
+              <Node name="Platforms" expanded="True">
+                <Node name="iOS" expanded="True" />
+                <Node name="MacCatalyst" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
