@@ -61,6 +61,7 @@ public partial class StartPage : ContentPage
         {
             KeyValue = dblNumber / dbl_m2m;
         }
+        else
         {
             KeyValue = 0;
         }
