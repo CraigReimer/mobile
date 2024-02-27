@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SaveStuff.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,30" >
+
+            <Label
+                Text="User Name"
+                FontSize="Title" />
+
+            <Border
+                Stroke="gray"
+                StrokeThickness="1" >
+
+                <Entry
+                    x:Name="txtUserName"
+                    Placeholder="Enter User Name"/>
+
+            </Border>
+
+            <Button
+                Text="Save String"
+                Margin="0,50,0,0"
+                x:Name="btnSave"
+                Clicked="btnSave_Clicked" />
+
+            <Button
+                Text="Read String"
+                x:Name="btnRead"
+                Clicked="btnRead_Clicked" />
+
+            <Button
+                Text="Clear"
+                x:Name="btnClear"
+                Clicked="btnClear_Clicked" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+

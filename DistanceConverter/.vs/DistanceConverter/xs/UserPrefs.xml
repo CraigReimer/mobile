@@ -9,20 +9,20 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="DistanceConverter/Views/StartPage.xaml.cs">
     <Files>
-      <File FileName="DistanceConverter/Views/StartPage.xaml" Line="151" Column="61" />
+      <File FileName="DistanceConverter/Views/StartPage.xaml" Line="117" Column="32" />
       <File FileName="DistanceConverter/Views/StartPage.xaml.cs" Line="63" Column="10" />
-      <File FileName="DistanceConverter/Platforms/iOS/Program.cs" Line="13" Column="1" />
+      <File FileName="DistanceConverter/Platforms/iOS/Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DistanceConverter" expanded="True">
-            <Node name="DistanceConverter">
-              <Node name="Platforms" expanded="True">
-                <Node name="iOS" expanded="True" />
-                <Node name="MacCatalyst" selected="True" />
+            <Node name="DistanceConverter" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="StartPage.xaml" expanded="True">
+                  <Node name="StartPage.xaml.cs" selected="True" />
+                </Node>
               </Node>
-              <Node name="Views" expanded="True" />
               <Node name="App.xaml" expanded="True" />
             </Node>
           </Node>
