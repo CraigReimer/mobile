@@ -1,0 +1,14 @@
+/Users/student/Projects/mobile/MovieApp/MovieApp/obj/Debug/net7.0-android/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+/Users/student/Projects/mobile/MovieApp/MovieApp/obj/Debug/net7.0-android/build.props
+/Users/student/Projects/mobile/MovieApp/MovieApp/obj/Debug/net7.0-android/adb.props
+/Users/student/Projects/mobile/MovieApp/MovieApp/obj/Debug/net7.0-android/MovieApp.csproj.AssemblyReference.cache
+/Users/student/Projects/mobile/MovieApp/MovieApp/obj/Debug/net7.0-android/mauiimage.inputs
+/Users/student/Projects/mobile/MovieApp/MovieApp/obj/Debug/net7.0-android/mauifont.inputs
+/Users/student/Projects/mobile/MovieApp/MovieApp/obj/Debug/net7.0-android/mauisplash.inputs
+/Users/student/Projects/mobile/MovieApp/MovieApp/obj/Debug/net7.0-android/resizetizer/sp/drawable-v31/maui_splash_image.xml
+/Users/student/Projects/mobile/MovieApp/MovieApp/obj/Debug/net7.0-android/resizetizer/sp/drawable/maui_splash_image.xml
+/Users/student/Projects/mobile/MovieApp/MovieApp/obj/Debug/net7.0-android/resizetizer/sp/values/maui_colors.xml
+/Users/student/Projects/mobile/MovieApp/MovieApp/obj/Debug/net7.0-android/mauisplash.stamp
+/Users/student/Projects/mobile/MovieApp/MovieApp/obj/Debug/net7.0-android/mauifont.stamp
+/Users/student/Projects/mobile/MovieApp/MovieApp/obj/Debug/net7.0-android/resizetizer/f/OpenSans-Regular.ttf
+/Users/student/Projects/mobile/MovieApp/MovieApp/obj/Debug/net7.0-android/resizetizer/f/OpenSans-Semibold.ttf

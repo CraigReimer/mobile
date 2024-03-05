@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{D386C116-E5B2-4C00-9EBC-53D88DA7EC30}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7683390C-D013-4072-A26A-17395FCE105C" />
+  <MonoDevelop.Ide.ItemProperties.MovieAppPro PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7683390C-D013-4072-A26A-17395FCE105C" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieAppPro/Views/FindPage.xaml.cs">
+    <Files>
+      <File FileName="MovieAppPro/Views/AddPage.xaml" Line="41" Column="36" />
+      <File FileName="MovieAppPro/Views/AddPage.xaml.cs" Line="15" Column="24" />
+      <File FileName="MovieAppPro/Views/FindPage.xaml.cs" Line="20" Column="41" />
+      <File FileName="MovieAppPro/Views/FindPage.xaml" Line="9" Column="30" />
+      <File FileName="MovieAppPro/Models/Movie.cs" Line="7" Column="43" />
+      <File FileName="MovieAppPro/App.xaml.cs" Line="13" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MovieAppPro" expanded="True">
+            <Node name="MovieAppPro">
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="AddPage.xaml" expanded="True" />
+                <Node name="FindPage.xaml" expanded="True">
+                  <Node name="FindPage.xaml.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
