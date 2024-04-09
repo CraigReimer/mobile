@@ -1,4 +1,38 @@
 ﻿<Properties StartupConfiguration="{1EEFF759-8299-4FBA-8284-1D06944E15F5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CustomGPS/MainPage.xaml.cs">
+    <Files>
+      <File FileName="CustomGPS/MainPage.xaml.cs" Line="31" Column="6" />
+      <File FileName="CustomGPS/MainPage.xaml" Line="16" Column="25" />
+      <File FileName="CustomGPS/Platforms/iOS/Program.cs" Line="13" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CustomGPS" expanded="True">
+            <Node name="CustomGPS">
+              <Node name="Platforms" expanded="True">
+                <Node name="Android" expanded="True" />
+                <Node name="iOS" expanded="True" />
+              </Node>
+              <Node name="Resources" expanded="True">
+                <Node name="Styles" expanded="True" />
+              </Node>
+              <Node name="MainPage.xaml">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.68" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7683390C-D013-4072-A26A-17395FCE105C" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.CustomGPS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.CustomGPS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7683390C-D013-4072-A26A-17395FCE105C" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
