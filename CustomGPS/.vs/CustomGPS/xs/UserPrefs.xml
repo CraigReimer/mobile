@@ -1,23 +1,19 @@
 ﻿<Properties StartupConfiguration="{1EEFF759-8299-4FBA-8284-1D06944E15F5}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="CustomGPS/MainPage.xaml.cs">
     <Files>
-      <File FileName="CustomGPS/MainPage.xaml.cs" Line="31" Column="6" />
+      <File FileName="CustomGPS/MainPage.xaml.cs" Line="21" Column="126" />
       <File FileName="CustomGPS/MainPage.xaml" Line="16" Column="25" />
-      <File FileName="CustomGPS/Platforms/iOS/Program.cs" Line="13" Column="1" />
+      <File FileName="CustomGPS/Platforms/iOS/Info.plist" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CustomGPS" expanded="True">
+          <Node name="CustomGPS">
             <Node name="CustomGPS">
               <Node name="Platforms" expanded="True">
-                <Node name="Android" expanded="True" />
                 <Node name="iOS" expanded="True" />
               </Node>
-              <Node name="Resources" expanded="True">
-                <Node name="Styles" expanded="True" />
-              </Node>
-              <Node name="MainPage.xaml">
+              <Node name="MainPage.xaml" expanded="True">
                 <Node name="MainPage.xaml.cs" selected="True" />
               </Node>
             </Node>
