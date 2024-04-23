@@ -1,4 +1,7 @@
-﻿namespace ShoppingList.Views;
+﻿using Newtonsoft.Json;
+using ShoppingList.Models;
+
+namespace ShoppingList.Views;
 
 public partial class LoginPage : ContentPage
 {
@@ -12,9 +15,31 @@ public partial class LoginPage : ContentPage
 		Navigation.PushAsync(new NewAccountPage());
     }
 
-    void btnLogin_Clicked(System.Object sender, System.EventArgs e)
+    async void btnLogin_Clicked(System.Object sender, System.EventArgs e)
     {
-        App.SessionKey = "uhJJgfDTVGb7tv67g";
-        Navigation.PopModalAsync();
+        // Login on API
+        var data = JsonConvert.SerializeObject(
+            new UserAccount(txtUsername.Text, txtPass.Text));
+
+        HttpClient client = new();
+
+        var response = await client.PostAsync(new Uri("https://joewetzel.com/fvtc/account/login"),
+                     new StringContent(data, System.Text.Encoding.UTF8, "application/json"));
+        var SKey = response.Content.ReadAsStringAsync().Result;
+
+        if (String.IsNullOrEmpty(SKey) || SKey.Length > 50)
+        {
+            // Login error handling
+            await DisplayAlert("Error", "Sorry, a login error has occurred.", "OK");
+            return;
+        }
+        else
+        {
+            // Login to App
+            App.UserKey = SKey;
+
+            Navigation.PopModalAsync();
+        }
+
     }
 }

@@ -1,4 +1,7 @@
-﻿namespace ShoppingList.Views;
+﻿using Newtonsoft.Json;
+using ShoppingList.Models;
+
+namespace ShoppingList.Views;
 
 public partial class MainPage : ContentPage
 {
@@ -24,20 +27,30 @@ public partial class MainPage : ContentPage
     public void OnAppearing1()
     {
 
-        if (String.IsNullOrEmpty(App.SessionKey))
+        if (String.IsNullOrEmpty(App.UserKey))
         {
             Navigation.PushModalAsync(new NavigationPage(lp));
         }
         else
         {
             // Do stuff
+            txtInput.Text = App.UserKey;
         }
     }
 
     void btnLogout_Clicked(System.Object sender, System.EventArgs e)
     {
-        App.SessionKey = "";
         // Logout of API
+        HttpClient client = new();
+
+        var data = JsonConvert.SerializeObject(new UserAccount(App.UserKey));
+
+        client.PostAsync(new Uri("https://joewetzel.com/fvtc/account/logout"),
+            new StringContent(data, System.Text.Encoding.UTF8, "application/json"));
+
+        // Logout of App
+        App.UserKey = "";
+
         OnAppearing1();
     }
 }

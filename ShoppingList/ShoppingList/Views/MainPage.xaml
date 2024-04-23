@@ -25,7 +25,8 @@
             StrokeThickness="1"
             Margin="10,10">
 
-            <Entry />
+            <Entry
+                x:Name="txtInput"/>
 
         </Border>
         

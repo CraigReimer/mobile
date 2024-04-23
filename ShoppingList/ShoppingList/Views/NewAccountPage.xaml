@@ -17,7 +17,9 @@
 
             <Entry
                 x:Name="txtUsername"
-                Placeholder="Username"/>
+                Placeholder="Username"
+                IsTextPredictionEnabled="False"
+                IsSpellCheckEnabled="False"/>
 
         </Border>
 
@@ -27,7 +29,11 @@
             Margin="15,10,0,40" >
 
             <Entry
-                Placeholder="Email Address"/>
+                x:Name="txtEmail"
+                Placeholder="Email Address"
+                Keyboard="Email"
+                IsTextPredictionEnabled="False"
+                IsSpellCheckEnabled="False"/>
 
         </Border>
 
@@ -37,7 +43,11 @@
             Margin="15,10,0,10" >
 
             <Entry
-                Placeholder="Password"/>
+                x:Name="txtPass1"
+                Placeholder="Password"
+                IsPassword="True"
+                IsTextPredictionEnabled="False"
+                IsSpellCheckEnabled="False"/>
 
         </Border>
 
@@ -47,7 +57,11 @@
             Margin="15,10,0,10" >
 
             <Entry
-                Placeholder="Re-Enter Password"/>
+                x:Name="txtPass2"
+                Placeholder="Re-Enter Password"
+                IsPassword="True"
+                IsTextPredictionEnabled="False"
+                IsSpellCheckEnabled="False"/>
 
         </Border>
 

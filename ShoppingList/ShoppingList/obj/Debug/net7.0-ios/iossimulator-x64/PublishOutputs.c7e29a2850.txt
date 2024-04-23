@@ -9,6 +9,7 @@
 /Users/student/Projects/mobile/ShoppingList/ShoppingList/bin/Debug/net7.0-ios/iossimulator-x64/publish/../ShoppingList.app/Microsoft.Extensions.Options.dll
 /Users/student/Projects/mobile/ShoppingList/ShoppingList/bin/Debug/net7.0-ios/iossimulator-x64/publish/../ShoppingList.app/Microsoft.Extensions.Primitives.dll
 /Users/student/Projects/mobile/ShoppingList/ShoppingList/bin/Debug/net7.0-ios/iossimulator-x64/publish/../ShoppingList.app/Microsoft.Maui.Graphics.dll
+/Users/student/Projects/mobile/ShoppingList/ShoppingList/bin/Debug/net7.0-ios/iossimulator-x64/publish/../ShoppingList.app/Newtonsoft.Json.dll
 /Users/student/Projects/mobile/ShoppingList/ShoppingList/bin/Debug/net7.0-ios/iossimulator-x64/publish/../ShoppingList.app/ShoppingList.dll
 /Users/student/Projects/mobile/ShoppingList/ShoppingList/bin/Debug/net7.0-ios/iossimulator-x64/publish/../ShoppingList.app/Microsoft.CSharp.dll
 /Users/student/Projects/mobile/ShoppingList/ShoppingList/bin/Debug/net7.0-ios/iossimulator-x64/publish/../ShoppingList.app/Microsoft.VisualBasic.Core.dll

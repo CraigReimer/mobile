@@ -16,7 +16,10 @@
             Margin="15,15,0,0" >
 
             <Entry
-                Placeholder="Username"/>
+                x:Name="txtUsername"
+                Placeholder="Username"
+                IsTextPredictionEnabled="False"
+                IsSpellCheckEnabled="False"/>
 
         </Border>
 
@@ -26,7 +29,11 @@
             Margin="15,10,0,10" >
 
             <Entry
-                Placeholder="Password"/>
+                x:Name="txtPass"
+                Placeholder="Password"
+                IsPassword="True"
+                IsTextPredictionEnabled="False"
+                IsSpellCheckEnabled="False"/>
 
         </Border>
 

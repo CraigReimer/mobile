@@ -4,7 +4,7 @@ namespace ShoppingList;
 
 public partial class App : Application
 {
-	public static string SessionKey = "";
+	public static string UserKey = "";
 
 	public App()
 	{
