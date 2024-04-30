@@ -33,8 +33,10 @@
         <Button
             Grid.Row="0"
             Grid.Column="1"
+            Margin="0,5,5,5"
             Text="Add"
-            Margin="0,5,5,5"/>
+            x:Name="btnAddData"
+            Clicked="btnAddData_Clicked" />
         <Button
             Grid.Row="0"
             Grid.Column="2"
@@ -44,13 +46,39 @@
             Clicked="btnLogout_Clicked" />
 
         <ListView
+            x:Name="lstData"
             Grid.Row="1"
-            Grid.ColumnSpan="3" />
+            Grid.ColumnSpan="3"
+            IsPullToRefreshEnabled="True">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell
+                        Text="{Binding dataValue}">
+
+                        <TextCell.ContextActions>
+                            <MenuItem
+                                Text="Delete"
+                                IsDestructive="True"
+                                CommandParameter="{Binding dataID}"
+                                Clicked="DeleteItem_Clicked" />
+
+                        </TextCell.ContextActions>
+
+                    </TextCell>
+
+                </DataTemplate>
+
+            </ListView.ItemTemplate>
+
+        </ListView>
 
         <Button
             Text="Clear List"
             Grid.Row="2"
-            Grid.ColumnSpan="3" />
+            Grid.ColumnSpan="3"
+            x:Name="btnClearList"
+            Clicked="btnClearList_Clicked"/>
 
     </Grid>
 
